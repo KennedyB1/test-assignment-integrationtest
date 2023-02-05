@@ -1,4 +1,4 @@
-import { IMovie } from "./models/Movie";
+import { IMovie } from "./models/IMovie";
 
 export const movieSort = (movies: IMovie[], desc: boolean = true) => {
   return movies.sort((a: IMovie, b: IMovie) => {
